@@ -7,10 +7,15 @@ import java.util.List;
 import java.util.Map;
 
 public class BloomFilter {
-    private final int size = 16;
-    private final boolean[] bitArray = new boolean[size];
+    private int size;
+    private boolean[] bitArray; 
     private final Map<String, List<Integer>> log = new HashMap<>();
     private final String[] hashAlgorithms = {"SHA-1", "SHA-256", "SHA-512"};
+
+    public BloomFilter(int size) {
+        this.size = size;
+        this.bitArray = new boolean[size];
+    }
 
     public void add(String entry) throws NoSuchAlgorithmException {
         log.put(entry, new ArrayList<>());
@@ -47,7 +52,7 @@ public class BloomFilter {
     }
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
-        BloomFilter bf = new BloomFilter();
+        BloomFilter bf = new BloomFilter(16);
 
         System.out.println("test(\"word1\"): " + bf.test("word1"));
         bf.add("word1");
