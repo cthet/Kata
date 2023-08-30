@@ -1,6 +1,10 @@
 package training;
 
 import org.junit.jupiter.api.Test;
+import training.cice.CiceService;
+import training.cice.Earning;
+import training.cice.EarningType;
+import training.cice.Employee;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

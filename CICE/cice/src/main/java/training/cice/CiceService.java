@@ -1,4 +1,4 @@
-package training;
+package training.cice;
 
 import java.math.BigDecimal;
 import java.util.List;

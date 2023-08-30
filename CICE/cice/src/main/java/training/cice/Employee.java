@@ -1,4 +1,4 @@
-package training;
+package training.cice;
 
 import java.util.List;
 
