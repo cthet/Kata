@@ -51,15 +51,15 @@ public class Service {
     }
 
 
-    private BigDecimal computeGrossTaxIncome(BigDecimal revenue) {
+    private BigDecimal computeGrossTaxIncome(BigDecimal basis) {
         BigDecimal grossTaxIncome = BigDecimal.ZERO;
 
         for (TaxBracket bracket : TAX_BRACKETS) {
-            if (revenue.compareTo(bracket.getLimit()) > 0) {
-                BigDecimal diff = revenue.subtract(bracket.getLimit());
+            if (basis.compareTo(bracket.getLimit()) > 0) {
+                BigDecimal diff = basis.subtract(bracket.getLimit());
                 BigDecimal taxAmount = diff.multiply(bracket.getRate());
                 grossTaxIncome = grossTaxIncome.add(taxAmount);
-                revenue = revenue.subtract(diff);
+                basis = basis.subtract(diff);
             }
         }
         return grossTaxIncome;
