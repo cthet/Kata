@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d5b9e26-c74c-4337-aef8-3b9a323c99cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccount.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankAccount/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ceI3B1QZke4BWqsfXqiK5VnelT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.bankAccountAccountTest.executor": "Run",
+    "JUnit.bankAccountAccountTest.shouldRegisterAHistoryOf2Transactions.executor": "Run",
+    "JUnit.bankAccountAccountTest.shouldRegisterAnHistoryOfATransaction.executor": "Run",
+    "JUnit.bankAccountAccountTest.shouldThrowAnExceptionIfAmountIsnull.executor": "Run",
+    "JUnit.bankAccountAccountTest.shouldThrowAnExceptionIfDepositIsNegative.executor": "Run",
+    "JUnit.bankAccountAccountTest.shouldThrowAnExceptionIfDepositIsnull.executor": "Run",
+    "JUnit.bankAccountAccountTest.shouldThrowAnExceptionIfWithdrawalIsHigherThanMyBalance.executor": "Run",
+    "JUnit.bankAccountTest.shouldDoNothing.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Documents/Informatique/Algorithms, Katas, and Data Structures/Kata/entrainement/BankAccount/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.com.bankAccount" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.bankAccountAccountTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.bankAccount.Main" />
+      <module name="BankAccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.bankAccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bankAccountAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankAccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.bankAccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.bankAccount" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.bankAccount.bankAccountAccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bankAccountAccountTest.shouldRegisterAHistoryOf2Transactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankAccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.bankAccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.bankAccount" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.bankAccount.bankAccountAccountTest" />
+      <option name="METHOD_NAME" value="shouldRegisterAHistoryOf2Transactions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bankAccountAccountTest.shouldThrowAnExceptionIfAmountIsnull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankAccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.bankAccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.bankAccount" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.bankAccount.bankAccountAccountTest" />
+      <option name="METHOD_NAME" value="shouldThrowAnExceptionIfAmountIsnull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bankAccountAccountTest.shouldThrowAnExceptionIfDepositIsnull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankAccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.bankAccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.bankAccount" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.bankAccount.bankAccountAccountTest" />
+      <option name="METHOD_NAME" value="shouldThrowAnExceptionIfDepositIsnull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.bankAccountAccountTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.bankAccountAccountTest.shouldThrowAnExceptionIfAmountIsnull" />
+        <item itemvalue="JUnit.bankAccountAccountTest.shouldThrowAnExceptionIfDepositIsnull" />
+        <item itemvalue="JUnit.bankAccountAccountTest.shouldRegisterAHistoryOf2Transactions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d5b9e26-c74c-4337-aef8-3b9a323c99cf" name="Changes" comment="" />
+      <created>1708465417469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708465417469</updated>
+      <workItem from="1708465418608" duration="561000" />
+      <workItem from="1708493525957" duration="6213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
